@@ -9,4 +9,9 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow() { delete ui; }
 
-void MainWindow::on_pushButton_clicked() { ui->label->setText("Hello world"); }
+void MainWindow::on_pushButton_clicked() {
+  ui->label->setText("Hello world");
+  ui->label_2->setText("Hello world");
+  ui->label_3->setText("Hello world");
+  ui->label_4->setText("Hello world");
+}
